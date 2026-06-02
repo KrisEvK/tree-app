@@ -30,25 +30,28 @@ CLASS_NAMES = [
 
 CLASS_NAMES_VN = {
     "BoDe"      : "Bồ Đề",
-    "CamXe"     : "Cẩm Xe",
+    "CamXe"     : "Căm Xe",
     "DauRai"    : "Dầu Rái",
-    "GiaTy"     : "Giá Tị",
+    "GiaTy"     : "Giá Tỵ",
     "GiangHuong": "Giáng Hương",
     "GoMat"     : "Gõ Mật",
     "KenHong"   : "Kèn Hồng",
-    "LimSet"    : "Lim Sẹt",
+    "LimSet"    : "Lim Xẹt",
     "LocVung"   : "Lộc Vừng",
-    "MacNua"    : "Mắc Nưa",
-    "MeTay"     : "Mè Tây",
+    "MacNua"    : "Mác Nưa",
+    "MeTay"     : "Me Tây",
     "MeXanh"    : "Me Xanh",
     "NhacNgua"  : "Nhạc Ngựa",
     "SaoDen"    : "Sao Đen",
-    "Si"        : "Si",
-    "SoKhi"     : "Sồi Khỉ",
+    "Si"        : "Cây Si",
+    "SoKhi"     : "Sọ Khỉ",
     "SuDai"     : "Sứ Đại",
-    "Trai"      : "Trái",
-    "Viet"      : "Việt",
+    "Trai"      : "Cây Trai",
+    "Viet"      : "Viết",
 }
+
+# Mapping tên hiển thị → key trong info19.json (dùng cho lookup)
+DISPLAY_TO_JSON = {v: v for v in CLASS_NAMES_VN.values()}  # mặc định giống nhau
 
 # ── Model paths (flat layout) ──────────────────────────
 CONV_PATH    = "ConvNeXtV2Tiny_S1_CrossEntropy.pth"  # ConvNeXt đơn
@@ -366,6 +369,7 @@ def conservation_badge(status: str) -> str:
 
 
 def render_tree_info(class_name: str, info_db: dict):
+    # class_name là tên hiển thị, khớp trực tiếp với key JSON
     info = info_db.get(class_name)
     if not info:
         st.info("Chưa có thông tin chi tiết cho loài này.")
@@ -443,13 +447,7 @@ if not st.session_state.result:
         horizontal=True,
         label_visibility="hidden",
     )
-    captions = {
-        "ConvNeXtV2-Tiny"   : "⚙️ **ConvNeXtV2-Tiny:** Mô hình đơn — nhanh, nhẹ.",
-        "Fusion"            : "⚙️ **Fusion:** ConvNeXtV2-Tiny + FastViT-S12 kết hợp qua Weighted Fusion Classifier.",
-        "Cascaded Ensemble" : "⚙️ **Cascaded Ensemble:** 4 model (ConvNeXt + FastViT + MobileNetV4 + DINOv2), gate tự động.",
-    }
-    st.markdown(f'<p style="font-size:.88rem;color:#6b8f71;margin-top:.2rem">{captions[method_choice]}</p>',
-                unsafe_allow_html=True)
+
     st.markdown("</div>", unsafe_allow_html=True)
 
     # ── Input ảnh ──────────────────────────────────────
