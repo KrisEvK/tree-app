@@ -1,0 +1,864 @@
+{
+  "Bồ Đề": {
+    "scientific_name": "Ficus religiosa",
+    "family": "Moraceae",
+    "common_names": [
+      "Bồ Đề",
+      "Cây Đề",
+      "Cây Giác Ngộ",
+      "Sacred Fig",
+      "Bodhi Tree",
+      "Peepal"
+    ],
+    "description": "Ficus religiosa là loài thân gỗ lớn thuộc họ Dâu tằm (Moraceae), phân bố tự nhiên ở tiểu lục địa Ấn Độ và Đông Nam Á. Cây trưởng thành cao 15–30 m, đường kính thân có thể đạt 3 m, tán xòe rộng hình vòm. Đặc điểm sinh học nổi bật là bộ rễ khí sinh phát triển từ cành, chạm đất hình thành thân phụ, giúp cây mở rộng tán theo thời gian. Tại Việt Nam, Bồ Đề được trồng chủ yếu trong khuôn viên chùa chiền, di tích lịch sử và công viên đô thị. Loài này mang ý nghĩa tôn giáo đặc biệt trong Phật giáo và Ấn Độ giáo.",
+    "height_range_m": [
+      15,
+      30
+    ],
+    "canopy_spread_m": [
+      15,
+      30
+    ],
+    "growth_rate": "Trung bình đến nhanh (1–1.5 m/năm)",
+    "lifespan_years": "500–1000 năm",
+    "root_system": "Hệ rễ hỗn hợp gồm rễ cọc cắm sâu, rễ khí sinh buông từ cành xuống đất và rễ bàng lan rộng theo bề mặt. Bạnh vè gốc phát triển lớn ở cây trưởng thành. Rễ bề mặt có khả năng phá vỡ vỉa hè và kết cấu công trình lân cận. Không phù hợp trồng trên vỉa hè hẹp dưới 3 m; hố trồng khuyến nghị rộng tối thiểu 2 m, sâu 1.5 m.",
+    "leaf_description": "Lá đơn mọc cách, phiến lá hình tim, đỉnh kéo dài thành đuôi nhọn dài 5–6 cm. Phiến lá dài 10–17 cm, xanh bóng hai mặt. Cuống lá mảnh và dài khiến lá dao động liên tục ngay cả trong gió nhẹ.",
+    "bark": "Vỏ màu xám nhạt, tương đối nhẵn ở cây non, nứt dọc và bong vảy nhỏ khi già. Tiết mủ trắng khi bị tổn thương.",
+    "fruit": "Quả sung (syconium) hình cầu dẹt, đường kính 1–1.5 cm, mọc thành cặp ở nách lá. Quả chuyển từ xanh sang tím đen khi chín, là nguồn thức ăn quan trọng cho chim và dơi đô thị.",
+    "flower": "Hoa đơn tính, rất nhỏ, nằm ẩn bên trong đế hoa hình quả giả (syconium). Thụ phấn hoàn toàn nhờ ong bắp cày chuyên biệt Blastophaga quadraticeps, không quan sát được hoa từ bên ngoài.",
+    "distribution": [
+      "Phổ biến tại khuôn viên chùa chiền toàn quốc",
+      "TP.HCM: đường Tôn Đức Thắng (Phường Bến Nghé, Q1)",
+      "Hà Nội (Văn Miếu, khu vực đình chùa cổ)",
+      "Huế (chùa Thiên Mụ)",
+      "Phân bố tự nhiên: Ấn Độ, Nepal, Sri Lanka",
+      "Trồng rộng rãi khắp Đông Nam Á"
+    ],
+    "ecological_role": "Cây chủ của hàng trăm loài côn trùng chuyên biệt. Quả chín cung cấp thức ăn cho ít nhất 17 loài chim và nhiều loài dơi trong đô thị. Rễ khí sinh tạo vi sinh cảnh đa dạng. Tán lá rộng giúp giảm nhiệt độ bề mặt đất xung quanh 3–5°C so với nền không có bóng cây.",
+    "conservation_status": "Ít lo ngại",
+    "uses": [
+      "Cây tâm linh tại chùa chiền và đền thờ Phật giáo, Ấn Độ giáo",
+      "Bóng mát tại công viên và quảng trường đô thị",
+      "Lá và vỏ dùng trong y học Ayurveda trị tiểu đường, hen suyễn",
+      "Cây cảnh bonsai nghệ thuật cao cấp",
+      "Nhựa cây dùng làm véc-ni trong thủ công mỹ nghệ truyền thống"
+    ],
+    "fun_fact": "Cấu trúc cuống lá mảnh và dài tạo ra hiện tượng dao động liên tục, giúp lá làm mát bề mặt hiệu quả hơn trong điều kiện nhiệt đới. Đức Phật Thích Ca Mâu Ni đạt giác ngộ dưới cây Bồ Đề tại Bodh Gaya năm 528 TCN theo ghi chép Phật sử. Cây Bồ Đề tại Anuradhapura (Sri Lanka), được trồng từ năm 288 TCN từ cành chiết của cây gốc Bodh Gaya, là cây trồng có ghi chép lịch sử lâu đời nhất thế giới, hiện vẫn còn sống sau hơn 2.300 năm.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_leaf_of_pipal.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/B%E1%BB%93_%C4%91%E1%BB%81"
+  },
+  "Căm Xe": {
+    "scientific_name": "Xylia xylocarpa",
+    "family": "Fabaceae",
+    "common_names": [
+      "Căm Xe",
+      "Cẩm Xe",
+      "Pyinkado",
+      "Ironwood",
+      "Burma Ironwood"
+    ],
+    "description": "Xylia xylocarpa là loài thân gỗ lớn rụng lá theo mùa thuộc họ Đậu (Fabaceae), phân bố tự nhiên trong các khu rừng khộp nhiệt đới của Việt Nam, Myanmar, Thái Lan và Campuchia. Cây trưởng thành cao 20–40 m, tán thưa rộng 10–25 m. Gỗ Căm Xe xếp vào nhóm I trong Danh mục gỗ quý của Việt Nam, nổi bật bởi độ cứng và khả năng chịu tải vượt trội. Tên gọi bắt nguồn từ công dụng truyền thống: gỗ được dùng làm căm (nan hoa) bánh xe bò vì chịu được tải trọng và ma sát liên tục mà không nứt vỡ.",
+    "height_range_m": [
+      20,
+      40
+    ],
+    "canopy_spread_m": [
+      10,
+      25
+    ],
+    "growth_rate": "Chậm (0.5–1 m/năm)",
+    "lifespan_years": "200–500 năm",
+    "root_system": "Rễ cọc thẳng cắm sâu, ít phát triển bạnh vè. Hệ rễ ngang hạn chế, không lan rộng trên bề mặt. Chịu hạn hán tốt nhờ rễ ăn sâu tiếp cận mạch nước ngầm. An toàn với vỉa hè và hạ tầng ngầm; hố trồng khuyến nghị sâu tối thiểu 1.2 m.",
+    "leaf_description": "Lá kép lông chim hai lần chẵn (bipinnate). Lá chét hình bầu dục đến hình lưỡi liềm, dài 4–8 cm, đầu hơi nhọn, mặt trên xanh đậm. Cây rụng toàn bộ lá vào mùa khô (tháng 12 đến tháng 3) và đâm chồi ngay sau mưa đầu mùa.",
+    "bark": "Vỏ màu nâu xám đến nâu đỏ nhạt, nứt dọc thành các mảng lớn bong tróc, bề mặt thô ráp rõ rệt.",
+    "fruit": "Quả đậu hóa gỗ cứng, dẹt, thuôn dài hình lưỡi liềm từ 10 đến 15 cm. Khi khô, quả nứt mạnh và bắn hạt ra xa.",
+    "flower": "Cụm hoa hình cầu màu vàng nhạt đến trắng kem, đường kính mỗi cụm 2–3 cm, tụ thành chùm ở đầu cành hoặc nách lá non. Hoa nở vào đầu mùa mưa.",
+    "distribution": [
+      "TP.HCM: CV Tao Đàn (Q1), đường Mạc Thị Bưởi, Nguyễn Đình Chiểu (P.Bến Nghé, Q1)",
+      "Tây Nguyên (Đắk Lắk, Gia Lai, Kon Tum): phân bố tự nhiên rừng khộp",
+      "Đông Nam Bộ: Đồng Nai, Bình Phước, Bình Dương",
+      "Myanmar, Thái Lan, Campuchia, Lào"
+    ],
+    "ecological_role": "Loài ưu thế trong rừng khộp nhiệt đới, đóng vai trò cấu trúc tán. Rụng lá vào mùa khô tạo thảm mục dày, cải tạo đất nghèo dinh dưỡng. Hạt giàu protein là nguồn thức ăn quan trọng cho các loài gặm nhấm và thú rừng trong mùa thiếu thức ăn.",
+    "conservation_status": "Sắp nguy cấp do khai thác gỗ quá mức",
+    "uses": [
+      "Gỗ xây dựng hạng nặng (nhóm I theo phân loại Việt Nam)",
+      "Đóng tà vẹt đường sắt",
+      "Làm trụ cầu, cột nhà và kết cấu chịu lực",
+      "Đồ nội thất cao cấp: sàn gỗ, cửa, sập",
+      "Đóng tàu thuyền",
+      "Gỗ mỹ nghệ nhờ vân gỗ đẹp",
+      "Hạt rang dùng như hạt dẻ trong ẩm thực dân gian"
+    ],
+    "fun_fact": "Gỗ Căm Xe có đặc tính 'hồi màu' hiếm gặp: mặt cắt tươi có màu vàng đỏ nhạt, nhưng sau vài năm tiếp xúc không khí, nhựa cây thấm ra làm gỗ tự chuyển sang màu đỏ bầm hoặc cánh gián. Đây là lý do gỗ Căm Xe được ưa chuộng trong nội thất cao cấp khi sản phẩm càng dùng lâu càng đẹp hơn.",
+    "image_url": "https://indiabiodiversity.org/files-api/api/get/raw/observations//02021176-8bab-40cb-a1e9-caaa2844af3c/698.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/C%C4%83m_xe"
+  },
+  "Dầu Rái": {
+    "scientific_name": "Dipterocarpus alatus",
+    "family": "Dipterocarpaceae",
+    "common_names": [
+      "Dầu Rái",
+      "Dầu Con Rái",
+      "Dầu Nước",
+      "Resin Tree",
+      "Yang Na"
+    ],
+    "description": "Dipterocarpus alatus là loài thân gỗ lớn thường xanh thuộc họ Dầu (Dipterocarpaceae), một trong những họ cây đặc trưng nhất của rừng nhiệt đới Đông Nam Á. Cây trưởng thành cao 30–50 m với thân trụ thẳng, tán tập trung trên cao. Vỏ cây chứa oleoresin (nhựa dầu) vàng nâu có giá trị thương mại lâu đời. Tại TP.HCM, Dầu Rái là loài cây di sản tiêu biểu trên các trục đường cổ như Tôn Đức Thắng, Hàm Nghi và khu vực Quận 1, Quận 3.",
+    "height_range_m": [
+      30,
+      50
+    ],
+    "canopy_spread_m": [
+      15,
+      25
+    ],
+    "growth_rate": "Trung bình (0.7–1.2 m/năm)",
+    "lifespan_years": "200–500 năm",
+    "root_system": "Rễ cọc đâm sâu hàng chục mét, gốc phát triển bạnh vè lớn ở cây trưởng thành trên 50 năm tuổi. Bạnh vè giúp phân tán tải trọng tán lớn, giúp cây trụ vững trong bão cấp 10–12. Rễ ít lan ngang mặt đất, ít gây hỏng vỉa hè nếu được trồng đúng kỹ thuật. Hố trồng khuyến nghị: sâu tối thiểu 1.5 m, rộng 2 m.",
+    "leaf_description": "Lá đơn mọc cách, phiến hình bầu dục thuôn, dài 15–25 cm, rộng 7–12 cm. Mặt trên xanh đậm bóng, gân lá nổi rõ mặt dưới. Phiến lá xếp nếp nhẹ dọc gân chính.",
+    "bark": "Vỏ dày màu xám nâu, nứt dọc sâu thành các rãnh lớn. Khi bị tổn thương, vỏ tiết oleoresin vàng nâu đặc, đây là đặc điểm nhận diện chính của loài.",
+    "fruit": "Quả hạch mang 2 cánh đài phát triển thành cánh dài 15–20 cm. Khi rời cành, quả tự xoay tròn quanh trục dọc nhờ cấu trúc cánh bất đối xứng, giúp phát tán hạt xa gốc mẹ.",
+    "flower": "Hoa 5 cánh màu trắng xám đến hồng nhạt, đường kính 3–4 cm, nhị nhiều, mọc thành chùm ở nách lá. Hoa nở đồng loạt theo mùa, thường ít được quan sát do tán cao.",
+    "distribution": [
+      "TP.HCM: đường Tôn Đức Thắng, Hàm Nghi, Lê Lợi (Q1); Pasteur, Nam Kỳ Khởi Nghĩa (Q3)",
+      "Đồng Nai (Khu Bảo tồn Thiên nhiên Vĩnh Cửu)",
+      "Bình Dương, Bình Phước",
+      "Tây Nguyên: phân bố tự nhiên rừng nhiệt đới",
+      "Campuchia, Thái Lan, Lào"
+    ],
+    "ecological_role": "Loài tầng tán vượt trong rừng nhiệt đới thường xanh, đóng vai trò cấu trúc cho toàn bộ hệ sinh thái bên dưới. Tán lá rộng làm giảm nhiệt độ bề mặt đường phố 4–6°C và cắt giảm bức xạ mặt trời trực tiếp. Là nơi làm tổ và kiếm ăn của nhiều loài chim và linh trưởng trong rừng tự nhiên.",
+    "conservation_status": "Nguy cấp do mất rừng và khai thác nhựa không bền vững",
+    "uses": [
+      "Cây bóng mát và cảnh quan chủ lực trên đường phố đô thị",
+      "Oleoresin dùng chống thấm thuyền gỗ và làm đuốc truyền thống",
+      "Gỗ xây dựng hạng nặng",
+      "Chiết xuất tinh dầu phục vụ công nghiệp sơn và vecni",
+      "Trồng rừng phục hồi sinh thái rừng nhiệt đới",
+      "Nhựa pha chế thuốc trị ho và viêm phế quản trong y học dân gian"
+    ],
+    "fun_fact": "Nhựa Dầu Rái được ngư dân miền Nam dùng trét thuyền gỗ chống thấm từ thời chúa Nguyễn, là nghề thủ công có lịch sử hàng trăm năm. Quả khi rơi xoay tròn như chong chóng nhờ cấu trúc cánh bất đối xứng và là trò chơi dân gian quen thuộc của nhiều thế hệ học sinh Sài Gòn.",
+    "image_url": "https://as2.ftcdn.net/jpg/01/26/71/67/1000_F_126716728_nePDwrcn6UcK8Dwt7qTweySVRHZNiMBL.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/D%E1%BA%A7u_r%C3%A1i"
+  },
+  "Giá Tỵ": {
+    "scientific_name": "Tectona grandis",
+    "family": "Lamiaceae",
+    "common_names": [
+      "Giá Tỵ",
+      "Tếch",
+      "Teak",
+      "Gỗ Báng Súng"
+    ],
+    "description": "Tectona grandis là loài thân gỗ lớn rụng lá theo mùa thuộc họ Hoa môi (Lamiaceae), có nguồn gốc từ rừng nhiệt đới Ấn Độ, Myanmar và Thái Lan. Cây trưởng thành cao 25–40 m, tán xòe rộng 10–20 m. Gỗ Giá Tỵ là một trong những loại gỗ đắt giá nhất thế giới do chứa tinh dầu tự nhiên (tectol và tectoquinone) giúp gỗ kháng nước, nấm mốc và mối mọt vĩnh viễn mà không cần xử lý hóa học. Tại Việt Nam, Giá Tỵ được trồng tập trung tại Tây Nguyên và Đông Nam Bộ phục vụ công nghiệp gỗ xuất khẩu.",
+    "height_range_m": [
+      25,
+      40
+    ],
+    "canopy_spread_m": [
+      10,
+      20
+    ],
+    "growth_rate": "Nhanh khi còn non, chậm lại khi trưởng thành (0.8–1.5 m/năm)",
+    "lifespan_years": "100–300 năm",
+    "root_system": "Rễ cọc ăn sâu kết hợp hệ rễ ngang phân nhánh rộng. Bám đất chắc, phù hợp trồng trên sườn đồi dốc để chống xói mòn. An toàn với công trình xây dựng lân cận, không có xu hướng phá vỡ hạ tầng ngầm.",
+    "leaf_description": "Lá đơn mọc đối, phiến lá rất lớn, dài 30–60 cm, rộng 20–35 cm, hình bầu dục. Mặt trên nhám như giấy nhám, mặt dưới phủ lông trắng dày. Lá non khi vò nát tiết dịch màu đỏ thẫm do chứa sắc tố anthocyanin. Lá rụng vào mùa khô.",
+    "bark": "Vỏ màu xám vàng đến nâu nhạt, nứt dọc thành vảy dài bong tróc mỏng, bề mặt xơ nhẹ.",
+    "fruit": "Quả hạch hình cầu đến 4 cạnh, đường kính 1–1.5 cm, được bao bọc bởi đài hoa phồng to tạo thành lớp bảo vệ xốp bên ngoài.",
+    "flower": "Hoa nhỏ màu trắng, mọc thành cụm hoa hình chùy (panicle) lớn ở đỉnh cành, đường kính cụm 30–40 cm. Hoa thu hút nhiều loài ong mật.",
+    "distribution": [
+      "TP.HCM: đường Alexandre de Rhodes, Hàn Thuyên, Nam Kỳ Khởi Nghĩa, Nguyễn Thị Minh Khai, Mạc Thị Bưởi, Ngô Đức Kế, Nguyễn Trung Ngạn (P.Bến Nghé, Q1); CV Tao Đàn (Q1)",
+      "Tây Nguyên (Đắk Lắk, Gia Lai, Kon Tum): trồng rừng công nghiệp",
+      "Đông Nam Bộ (Đồng Nai, Bình Phước)",
+      "Bình Định, Quảng Nam: trồng phân tán",
+      "Nguồn gốc tự nhiên: Ấn Độ, Myanmar, Thái Lan"
+    ],
+    "ecological_role": "Lá rụng mùa khô phân hủy tạo thảm mục giàu kali và canxi, cải tạo đất rừng khô cằn hiệu quả. Cung cấp sinh cảnh cho nhiều loài động vật rừng nhiệt đới. Hệ rễ sâu chống xói mòn trên đất dốc.",
+    "conservation_status": "Ít lo ngại. Bị đe dọa trong rừng tự nhiên nhưng được trồng rừng công nghiệp rộng rãi toàn cầu",
+    "uses": [
+      "Sàn gỗ du thuyền và tàu biển hạng sang",
+      "Đồ nội thất cao cấp xuất khẩu",
+      "Gỗ đóng tàu thuyền hạng nặng",
+      "Trụ cầu và kết cấu ngoài trời chịu thời tiết",
+      "Làm báng súng trong quân sự",
+      "Tinh dầu lá dùng trong y học dân gian trị viêm khớp và sốt"
+    ],
+    "fun_fact": "Các tàu chiến Hải quân Hoàng gia Anh thế kỷ 18 được đóng bằng gỗ Giá Tỵ khai thác từ Myanmar và Ấn Độ. Nhiều con tàu trong số đó vẫn còn kết cấu gỗ nguyên vẹn sau 200 năm, minh chứng cho khả năng bền bỉ vượt trội của loại gỗ này.",
+    "image_url": "https://t3.ftcdn.net/jpg/03/82/38/42/240_F_382384265_E9Q2iXXlRadVVmIgKxQl8batFGpXNGxR.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/T%E1%BA%BFch"
+  },
+  "Giáng Hương": {
+    "scientific_name": "Pterocarpus macrocarpus",
+    "family": "Fabaceae",
+    "common_names": [
+      "Giáng Hương",
+      "Dáng Hương",
+      "Hương Gỗ Đỏ",
+      "Rosewood",
+      "Burma Padauk",
+      "Pradoo"
+    ],
+    "description": "Pterocarpus macrocarpus là loài thân gỗ lớn rụng lá theo mùa thuộc họ Đậu (Fabaceae), phân bố tự nhiên tại Myanmar, Thái Lan, Lào, Campuchia và các tỉnh Tây Nguyên của Việt Nam. Cây trưởng thành cao 20–35 m, gỗ nâu đỏ vân mịn, tỏa mùi thơm nhẹ đặc trưng do hàm lượng tinh dầu tự nhiên cao. Xếp vào nhóm gỗ quý theo phân loại lâm nghiệp Việt Nam. Được trồng làm cây cảnh quan đường phố tại TP.HCM và các tỉnh miền Nam.",
+    "height_range_m": [
+      20,
+      35
+    ],
+    "canopy_spread_m": [
+      10,
+      20
+    ],
+    "growth_rate": "Chậm đến trung bình (0.5–1 m/năm)",
+    "lifespan_years": "150–300 năm",
+    "root_system": "Rễ cọc ăn sâu, hệ rễ có nốt sần cộng sinh với vi khuẩn Rhizobium sp. giúp cố định đạm từ không khí, làm giàu đất thiếu dinh dưỡng. An toàn với vỉa hè và hệ thống ống ngầm đô thị; không cần hố trồng đặc biệt rộng.",
+    "leaf_description": "Lá kép lông chim một lần lẻ (imparipinnate), gồm 7–11 lá chét hình bầu dục thuôn, dài 5–10 cm, mặt trên xanh lục bóng mượt, mép nguyên, gân phụ nổi rõ.",
+    "bark": "Vỏ xám đen, nứt dọc thô ráp, bong vảy lớn. Khi bị tổn thương cơ học, vỏ tiết nhựa màu đỏ tươi dính đặc, là đặc điểm nhận diện loài dễ dàng nhất.",
+    "fruit": "Quả dẹt hình đĩa tròn, đường kính 5–8 cm, mép lượn sóng. Hạt bao quanh bởi lớp màng mỏng như cánh. Quả không nứt khi chín và phát tán nhờ gió.",
+    "flower": "Hoa hình bướm màu vàng chanh, đường kính 1.5–2 cm, mọc thành chùm lớn ở nách lá. Hoa nở đồng loạt khi cây trụi lá hoàn toàn vào cuối mùa khô, tỏa hương thơm nhẹ.",
+    "distribution": [
+      "TP.HCM: CV Tao Đàn (Q1)",
+      "Tây Nguyên (Đắk Lắk, Gia Lai): phân bố tự nhiên rừng khộp",
+      "Đông Nam Bộ (Bình Phước)",
+      "Myanmar, Thái Lan, Lào, Campuchia"
+    ],
+    "ecological_role": "Cố định đạm qua nốt sần rễ, góp phần cải tạo đất đô thị và đất rừng nghèo dinh dưỡng. Hoa vàng rực cung cấp mật hoa dồi dào cho ong mật vào cuối mùa khô khi nhiều loài cây khác chưa ra hoa. Là nơi cư ngụ của linh trưởng và nhiều loài chim trong rừng tự nhiên.",
+    "conservation_status": "Sắp nguy cấp do khai thác gỗ quá mức và thu hẹp diện tích rừng",
+    "uses": [
+      "Cây cảnh quan và điểm nhấn thẩm mỹ trên đường phố",
+      "Gỗ mỹ nghệ, tạc tượng và chế tác nhạc cụ",
+      "Nhựa đỏ dùng làm thuốc nhuộm và chất màu truyền thống",
+      "Chiết xuất từ vỏ và rễ dùng trong đông y trị đái tháo đường",
+      "Trồng rừng phục hồi sinh thái",
+      "Nhựa đỏ có tính kháng khuẩn, dùng trị vết thương ngoài da trong y học dân gian"
+    ],
+    "fun_fact": "Giáng Hương có khả năng rụng sạch lá trong vòng 3–5 ngày rồi nở hoa đồng loạt ngay sau đó, toàn bộ tán cây phủ vàng trong khi cành còn trụi lá. Người Thái gọi loài này là Pradoo và xem đây là biểu tượng của sức sống mãnh liệt. Nhựa đỏ tiết ra khi vỏ bị tổn thương được gọi là 'máu rồng' trong văn hóa phong thủy một số nước Đông Nam Á. Gỗ tỏa mùi thơm gỗ đặc trưng, là lý do tên gọi 'Giáng Hương' trong tiếng Việt.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/PterocarpusMacrocarpus.jpg?utm_source=species.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Gi%C3%A1ng_h%C6%B0%C6%A1ng"
+  },
+  "Gõ Mật": {
+    "scientific_name": "Sindora siamensis",
+    "family": "Fabaceae",
+    "common_names": [
+      "Gõ Mật",
+      "Gõ Đen",
+      "Gõ Xẻ",
+      "Siam Sour Plum"
+    ],
+    "description": "Sindora siamensis là loài thân gỗ lớn thường xanh thuộc họ Đậu (Fabaceae), phân bố ở các khu rừng thường xanh và rừng khộp nhiệt đới của Việt Nam, Thái Lan, Myanmar, Lào và Campuchia. Cây trưởng thành cao 15–25 m, tán rậm rạp rộng 10–20 m. Gỗ nâu sẫm xếp vào nhóm II theo phân loại lâm nghiệp Việt Nam, nổi bật bởi độ cứng cao và khả năng chống cong vênh. Tên gọi 'Gõ Mật' xuất phát từ nhựa cây tiết ra có vị ngọt.",
+    "height_range_m": [
+      15,
+      25
+    ],
+    "canopy_spread_m": [
+      10,
+      20
+    ],
+    "growth_rate": "Rất chậm (0.3–0.5 m/năm)",
+    "lifespan_years": "200–400 năm",
+    "root_system": "Rễ cọc đâm thẳng và sâu vào các tầng đất cứng. Hệ rễ ngang phát triển hạn chế, không có xu hướng nâng vỡ vỉa hè hay phá hủy hạ tầng ngầm. Phù hợp trồng trên dải phân cách hẹp trong đô thị.",
+    "leaf_description": "Lá kép lông chim một lần chẵn (paripinnate), gồm 4–6 cặp lá chét hình elip, dài 4–8 cm. Phiến lá dai và cứng, cả hai mặt nhẵn bóng, giúp hạn chế mất nước qua bốc hơi.",
+    "bark": "Vỏ màu xám nâu, liên tục bong tróc thành các mảng tròn hoặc mảng lớn, để lộ lớp gỗ màu vàng xám trơn nhẵn bên trong. Đây là đặc điểm nhận diện rõ ràng nhất của loài.",
+    "fruit": "Quả đậu hình bán cầu dẹt, đường kính 5–8 cm, bề mặt phủ nhiều gai nhọn cứng, chứa 1–2 hạt bên trong.",
+    "flower": "Hoa nhỏ mọc thành chùm ở nách lá và đầu cành, cánh hoa màu đỏ nhạt đến vàng cam. Hoa nở đầu mùa mưa, thu hút ong và bướm.",
+    "distribution": [
+      "TP.HCM: CV Tao Đàn (Q1), đường Nguyễn Thị Minh Khai, Nguyễn Đình Chiểu, Phan Văn Đạt (P.Bến Nghé, Q1), là loài phổ biến nhất khu vực",
+      "Đông Nam Bộ: Tây Ninh, Bình Phước",
+      "Tây Nguyên",
+      "Thái Lan, Myanmar, Lào, Campuchia"
+    ],
+    "ecological_role": "Tán lá rậm thường xanh tạo bóng râm đặc, giảm bức xạ nhiệt đô thị hiệu quả. Gỗ mục chậm là sinh cảnh lý tưởng cho côn trùng phân giải hữu cơ. Cung cấp môi trường trú ẩn và kiếm ăn cho nhiều loài động vật nhỏ trong mùa khô.",
+    "conservation_status": "Ít lo ngại. Bị đe dọa cục bộ tại Việt Nam do khai thác gỗ",
+    "uses": [
+      "Gỗ làm sập gụ, tủ chè, bàn ghế nguyên khối hạng sang",
+      "Ván sàn và cột nhà",
+      "Cây bóng mát tại công viên và dải phân cách đô thị",
+      "Trồng rừng phòng hộ đầu nguồn",
+      "Hạt ép lấy dầu dùng trong y học dân gian và thắp sáng truyền thống"
+    ],
+    "fun_fact": "Gai nhọn trên quả Gõ Mật là cơ chế phát tán hạt thụ động: gai bám vào lông của các loài thú lớn đi ngang qua, mang hạt di chuyển xa gốc mẹ trước khi rơi xuống đất nảy mầm. Đây là chiến lược tiến hóa được gọi là phát tán nhờ thú (epizoochory) và phổ biến ở nhiều loài trong họ Đậu.",
+    "image_url": "https://alchetron.com/Sindora-siamensis#sindora-siamensis-059a195c-ea53-4ea8-a293-ec9763b6c7c-resize-750.jpeg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/G%C3%B5_m%E1%BA%ADt"
+  },
+  "Kèn Hồng": {
+    "scientific_name": "Tabebuia rosea",
+    "family": "Bignoniaceae",
+    "common_names": [
+      "Kèn Hồng",
+      "Chuông Hồng",
+      "Pink Trumpet Tree",
+      "Rosy Trumpet Tree"
+    ],
+    "description": "Tabebuia rosea là loài thân gỗ lớn rụng lá theo mùa thuộc họ Núc Nác (Bignoniaceae), có nguồn gốc từ vùng nhiệt đới Trung và Nam Mỹ. Cây trưởng thành cao 15–30 m. Được du nhập vào Việt Nam và trở thành một trong những loài cây cảnh quan đường phố phổ biến nhất tại TP.HCM và các đô thị miền Nam. Loài nổi bật bởi hiện tượng ra hoa đồng loạt khi cây trụi lá hoàn toàn vào cuối mùa khô.",
+    "height_range_m": [
+      15,
+      30
+    ],
+    "canopy_spread_m": [
+      8,
+      15
+    ],
+    "growth_rate": "Trung bình đến nhanh (1–1.5 m/năm)",
+    "lifespan_years": "80–150 năm",
+    "root_system": "Rễ cọc ăn sâu vừa phải, hệ rễ ngang phát triển không mạnh ở bề mặt. Không có xu hướng nâng vỡ vỉa hè hay đứt cáp ngầm. Phù hợp trồng trên vỉa hè đô thị mật độ cao.",
+    "leaf_description": "Lá kép chân vịt (palmate) gồm 5 lá chét xòe như bàn tay, mỗi lá chét dài 10–20 cm, xanh thẫm bóng, gân lá nổi rõ. Lá rụng hoàn toàn trước khi ra hoa.",
+    "bark": "Vỏ màu xám trắng đến xám nâu, nhẵn mịn khi còn non, nứt dọc mỏng khi trưởng thành, không bong tróc.",
+    "fruit": "Quả nang hình trụ dài 20–35 cm, thon như chiếc đũa. Khi chín, quả nứt dọc thành hai mảnh phóng ra nhiều hạt mang cánh mỏng phát tán theo gió.",
+    "flower": "Hoa hình chuông loe rộng 5 cánh nhăn, đường kính 5–8 cm, màu hồng nhạt đến tím hồng. Hoa mọc thành cụm lớn ở đầu cành. Toàn bộ tán cây nở đồng loạt trong vòng 1–2 tuần mỗi năm.",
+    "distribution": [
+      "TP.HCM: đường Hàm Nghi, Nguyễn Bỉnh Khiêm, Nguyễn Hữu Cảnh (P.Bến Nghé, Q1); CV Tao Đàn (Q1); Bảo tàng Hồ Chí Minh",
+      "Bình Dương, Đồng Nai, Long An, Tiền Giang",
+      "Đồng bằng sông Cửu Long",
+      "Nguồn gốc: Mexico, Trung Mỹ đến Venezuela"
+    ],
+    "ecological_role": "Cung cấp mật hoa tập trung trong thời gian ngắn cho ong mật và chim hút mật vào cuối mùa khô, khi nhiều loài cây khác chưa ra hoa. Lá rụng mùa khô cải tạo độ tơi xốp của đất đô thị.",
+    "conservation_status": "Ít lo ngại",
+    "uses": [
+      "Điểm nhấn cảnh quan thẩm mỹ cho các trục đường đô thị",
+      "Bóng mát trong mùa mưa",
+      "Trang trí khuôn viên trường học, bệnh viện, khu đô thị",
+      "Gỗ nhẹ dùng làm đồ nội thất trong nhà",
+      "Vỏ cây dùng trong y học dân gian trị sốt và viêm"
+    ],
+    "fun_fact": "Kèn Hồng được ví như 'mùa anh đào của xứ nhiệt đới' vì hiện tượng nở hoa đồng loạt khi cây trụi lá hoàn toàn, tương tự cây anh đào Nhật Bản. Mỗi năm chỉ nở trong 1–2 tuần vào tháng 3–4, hoa rụng phủ kín vỉa hè thành thảm hồng, trở thành điểm đặc trưng theo mùa của nhiều tuyến đường TP.HCM.",
+    "image_url": "https://vi.wikipedia.org/wiki/K%C3%A8n_h%E1%BB%93ng#/media/T%E1%BA%ADp_tin:Starr_060928-0493_Tabebuia_rosea.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/K%C3%A8n_h%E1%BB%93ng"
+  },
+  "Lim Xẹt": {
+    "scientific_name": "Peltophorum pterocarpum",
+    "family": "Fabaceae",
+    "common_names": [
+      "Lim Xẹt",
+      "Muồng Kim Phượng",
+      "Yellow Flame Tree",
+      "Copperpod",
+      "Phượng Vàng"
+    ],
+    "description": "Peltophorum pterocarpum là loài thân gỗ lớn thường xanh đến bán rụng lá thuộc họ Đậu (Fabaceae), phân bố tự nhiên từ Ấn Độ, Đông Nam Á đến bắc Australia. Cây trưởng thành cao 15–25 m, tán xòe rộng hình chiếc ô đặc trưng. Là một trong những loài cây đường phố phổ biến nhất tại các đô thị nhiệt đới Đông Nam Á nhờ tốc độ sinh trưởng nhanh, tán che rộng và khả năng chịu nhiệt tốt.",
+    "height_range_m": [
+      15,
+      25
+    ],
+    "canopy_spread_m": [
+      10,
+      20
+    ],
+    "growth_rate": "Rất nhanh (1–1.5 m/năm)",
+    "lifespan_years": "80–150 năm",
+    "root_system": "Hệ rễ cọc đâm sâu kết hợp rễ ngang lan rộng dưới mặt đất, giúp cây không bị lật đổ trong điều kiện bão. Cần duy trì khoảng cách tối thiểu 1.5 m với hệ thống cáp và ống ngầm khi quy hoạch trồng.",
+    "leaf_description": "Lá kép lông chim hai lần chẵn (bipinnate). Lá chét nhỏ hình bầu dục thuôn, dài 1–2 cm. Cuống và cành non phủ lớp lông tơ màu gỉ sắt đặc trưng, phiến lá xanh đậm bóng khi trưởng thành.",
+    "bark": "Vỏ màu nâu xám nhạt, xù xì, chứa tanin hàm lượng cao. Tiết nhựa gôm dính khi bị xước.",
+    "fruit": "Quả đậu dẹt mỏng, mép có gân nổi, chuyển màu tím đồng khi chín, không nứt, phát tán theo gió.",
+    "flower": "Cụm hoa hình chùy (panicle) vươn thẳng đứng cao 20–30 cm ở đỉnh tán. Hoa 5 cánh nhăn màu vàng chói, nhị phủ phấn màu cam. Ra hoa nhiều đợt trong năm, thường sau mỗi đợt mưa lớn.",
+    "distribution": [
+      "TP.HCM: 25 tuyến đường khu vực Q1–Q3, gồm Hàm Nghi, Lê Lợi, Lê Duẩn, Hai Bà Trưng, Tôn Đức Thắng, Pasteur, Đồng Khởi, Hoàng Sa, Nam Kỳ Khởi Nghĩa, Nguyễn Thị Minh Khai..., là loài đông nhất toàn khu vực",
+      "Hà Nội, Đà Nẵng và khắp các đô thị Nam Bộ",
+      "Phân bố tự nhiên: Ấn Độ, Sri Lanka, Đông Nam Á, Bắc Australia"
+    ],
+    "ecological_role": "Tán lá dày cản bụi và giảm cường độ đèn pha trên dải phân cách đường cao tốc. Hệ rễ cộng sinh với vi khuẩn cố định đạm, cải tạo đất đô thị nghèo dinh dưỡng. Hoa thu hút ong mật với số lượng lớn trong nhiều đợt ra hoa mỗi năm.",
+    "conservation_status": "Ít lo ngại",
+    "uses": [
+      "Cây cản sáng và chống lóa đèn pha trên đường cao tốc và dải phân cách",
+      "Bóng mát tại công viên và trường học",
+      "Gỗ làm đồ mộc và củi chất lượng cao",
+      "Vỏ cây chứa tanin dùng nhuộm vải màu nâu vàng truyền thống",
+      "Vỏ cây dùng trong y học dân gian trị ghẻ và bệnh ngoài da"
+    ],
+    "fun_fact": "Lim Xẹt có khả năng ra hoa nhiều lần trong năm, kích hoạt bởi mưa lớn, khiến cả ngọn cây rực vàng như bốc cháy sau mỗi đợt mưa đầu mùa. Tại nhiều nước Đông Nam Á, loài này được gọi là 'Yellow Flame Tree' (Cây ngọn lửa vàng). Người Sài Gòn truyền nhau rằng khi Lim Xẹt nở rộ là tín hiệu mùa mưa sắp về.",
+    "image_url": "https://ilovenature.sg/Peltophorum%20pterocarpum/DSC07597%20(09).jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Lim_x%E1%BA%B9t"
+  },
+  "Lộc Vừng": {
+    "scientific_name": "Barringtonia acutangula",
+    "family": "Lecythidaceae",
+    "common_names": [
+      "Lộc Vừng",
+      "Cây Chiếc",
+      "Cây Mừng",
+      "Indian Oak",
+      "Freshwater Mangrove"
+    ],
+    "description": "Barringtonia acutangula là loài thân gỗ trung bình thường xanh thuộc họ Lộc Vừng (Lecythidaceae), phân bố ở vùng ven sông, hồ và đất ngập nước nhiệt đới từ Ấn Độ, Sri Lanka đến Đông Nam Á và bắc Australia. Cây trưởng thành cao 8–20 m, thân và cành có hình dáng xù xì cổ quái, dễ tạo thế nghệ thuật. Trong văn hóa Việt Nam, Lộc Vừng là một trong Tứ Đại Mộc phong thủy 'Sanh - Sung - Tùng - Lộc', tượng trưng cho tài lộc.",
+    "height_range_m": [
+      8,
+      20
+    ],
+    "canopy_spread_m": [
+      6,
+      15
+    ],
+    "growth_rate": "Trung bình (0.5–1 m/năm)",
+    "lifespan_years": "100–200 năm",
+    "root_system": "Hệ rễ chùm và rễ phụ phát triển mạnh, thích nghi với đất ngập nước, có khả năng chịu ngập một nửa gốc trong thời gian dài mà không bị thối. An toàn với công trình xây dựng lân cận; phù hợp trồng sát mép ao hồ và kênh rạch.",
+    "leaf_description": "Lá đơn mọc cách, tập trung ở đầu cành, hình bầu dục ngược thuôn, dài 10–20 cm, rộng 4–8 cm. Mặt lá xanh bóng, mép có răng cưa nhỏ mềm. Lá non màu tím đỏ, ăn được, vị chát chua.",
+    "bark": "Vỏ dày, sần sùi, nứt nẻ thô ráp. Đặc tính vỏ già cỗi, phong trần được giới chơi cây cảnh đánh giá cao trong tạo thế bonsai.",
+    "fruit": "Quả hạch hình tháp 4 cạnh nổi, dài 3–5 cm. Lớp xơ dai bên ngoài giúp quả nổi trên mặt nước và trôi theo dòng hàng km để phát tán hạt. Hạt bên trong chứa saponin độc, không ăn được.",
+    "flower": "Chùm hoa buông thõng dài đến 50 cm từ đầu cành, gồm nhiều bông nhỏ với nhị màu đỏ tía nổi bật. Hoa nở vào ban đêm, tỏa hương, và rụng hoàn toàn vào sáng sớm hôm sau.",
+    "distribution": [
+      "TP.HCM: CV Tao Đàn (Q1), đường Hàm Nghi (P.Bến Nghé, Q1)",
+      "Đồng bằng sông Cửu Long: phổ biến ven sông rạch và khuôn viên sân vườn",
+      "Miền Nam: trồng trong đình làng, khuôn viên tâm linh",
+      "Phân bố tự nhiên: Ấn Độ, Sri Lanka, Đông Nam Á lục địa"
+    ],
+    "ecological_role": "Rễ ngập nước tạo vi sinh cảnh phức tạp, là nơi trú ẩn và sinh sản của tôm cá nhỏ ven bờ. Hoa nở đêm thu hút dơi mật và côn trùng thụ phấn ban đêm. Hệ rễ bám bờ chống sạt lở đất ven ao hồ và kênh rạch.",
+    "conservation_status": "Ít lo ngại",
+    "uses": [
+      "Cây cảnh bonsai và cây phong thủy giá trị kinh tế cao",
+      "Lá non dùng làm rau sống ăn kèm tại miền Tây Nam Bộ",
+      "Bóng mát sinh thái ven ao hồ và kênh rạch",
+      "Hạt chứa saponin dùng đánh cá theo phương pháp truyền thống",
+      "Vỏ rễ dùng trong y học cổ truyền trị sốt rét"
+    ],
+    "fun_fact": "Hoa Lộc Vừng chỉ nở vào ban đêm và rụng hoàn toàn trước khi mặt trời mọc, tạo thảm nhị đỏ dưới gốc cây mỗi buổi sáng. Quả có cấu trúc xơ đặc biệt giúp nổi trên mặt nước và trôi xa hàng km theo dòng sông để phát tán hạt. Người dân vùng Đồng bằng sông Cửu Long còn giã nát quả để làm thuốc đánh cá đồng theo phương pháp truyền thống.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Barringtonia_acutangula_at_Mayyil_Feb_2019_%2829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/L%E1%BB%99c_v%E1%BB%ABng"
+  },
+  "Mác Nưa": {
+    "scientific_name": "Diospyros mollis",
+    "family": "Ebenaceae",
+    "common_names": [
+      "Mác Nưa",
+      "Mặc Nưa",
+      "Ebony Persimmon",
+      "Hairy Ebony"
+    ],
+    "description": "Diospyros mollis là loài thân gỗ nhỏ đến trung bình thuộc họ Thị (Ebenaceae), phân bố ở các khu rừng thưa và rừng thứ sinh nhiệt đới của Việt Nam, Campuchia, Thái Lan và Myanmar. Cây trưởng thành cao 10–20 m. Lõi gỗ già hóa đen bóng, thuộc nhóm gỗ mun quý. Loài nổi tiếng nhất trong nghề nhuộm vải truyền thống: quả chứa tanin và diospyron là chất tạo màu đen bền đặc trưng của lụa lãnh Mỹ A tại Tân Châu, An Giang.",
+    "height_range_m": [
+      10,
+      20
+    ],
+    "canopy_spread_m": [
+      6,
+      12
+    ],
+    "growth_rate": "Rất chậm (0.3–0.7 m/năm)",
+    "lifespan_years": "100–200 năm",
+    "root_system": "Rễ cọc thẳng đâm sâu để tiếp cận mạch nước ngầm trong mùa khô. Hệ rễ ngang phát triển hạn chế, ít lan trên bề mặt. An toàn khi trồng ven lối đi bộ và vỉa hè hẹp.",
+    "leaf_description": "Lá đơn mọc so le, hình bầu dục đến thuôn, dài 6–15 cm. Mặt trên nhẵn bóng. Mặt dưới và cành non phủ lông mịn màu nâu vàng, là đặc điểm nhận diện loài.",
+    "bark": "Vỏ màu đen xám, nứt dọc nông. Lõi gỗ trưởng thành hóa đen bóng và cứng, thuộc nhóm gỗ mun (ebony) có giá trị.",
+    "fruit": "Quả mọng hình cầu, đường kính 2–3 cm. Quả non màu xanh phủ lông mịn, chứa tanin và diospyron là hoạt chất có tác dụng tẩy giun sán. Khi giã nát quả tươi, nhựa đen đặc tiết ra được dùng nhuộm lụa.",
+    "flower": "Loài dioecious: cây đực và cây cái riêng biệt. Hoa nhỏ màu trắng vàng có 4 cánh, mọc ở nách lá, tỏa hương nhẹ.",
+    "distribution": [
+      "An Giang (Tân Châu): trung tâm nghề nhuộm lụa lãnh Mỹ A truyền thống",
+      "Tây Nam Bộ, Đông Nam Bộ",
+      "Tây Nguyên và miền Bắc Việt Nam (phân bố rải rác)",
+      "Campuchia, Thái Lan, Myanmar"
+    ],
+    "ecological_role": "Quả chín là nguồn thức ăn cho các loài chim ăn quả và động vật hoang dã trong rừng thưa. Gỗ cứng phân hủy rất chậm, tạo sinh cảnh cho côn trùng gỗ chuyên biệt. Là thành phần của tầng cây thứ sinh trong hệ sinh thái rừng nhiệt đới thoái hóa.",
+    "conservation_status": "Ít lo ngại. Diện tích phân bố tự nhiên đang thu hẹp do mất rừng",
+    "uses": [
+      "Quả ép nhựa nhuộm đen lụa tơ tằm trong nghề dệt lụa lãnh Mỹ A",
+      "Điều chế thuốc tẩy giun sán trong đông y",
+      "Gỗ mun đen làm đồ mỹ nghệ tinh xảo",
+      "Tanin trong công nghiệp thuộc da",
+      "Quả xanh non dùng trong y học dân gian trị tiêu chảy và kiết lỵ"
+    ],
+    "fun_fact": "Quy trình nhuộm lụa lãnh Mỹ A tại Tân Châu (An Giang) yêu cầu nhúng vải vào nhựa quả Mác Nưa tươi giã nát rồi phơi nắng liên tục trong 45 ngày, lặp lại nhiều chu kỳ cho đến khi đạt màu đen óng bóng đặc trưng. Đây là một trong những quy trình nhuộm tự nhiên phức tạp và tốn thời gian nhất còn được duy trì tại Việt Nam, được công nhận là nghề thủ công truyền thống có lịch sử hàng trăm năm.",
+    "image_url": "https://static.inaturalist.org/photos/525911208/original.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/M%E1%BA%B7c_n%C6%B0a"
+  },
+  "Me Tây": {
+    "scientific_name": "Samanea saman",
+    "family": "Fabaceae",
+    "common_names": [
+      "Me Tây",
+      "Cây Mưa",
+      "Rain Tree",
+      "Monkey Pod"
+    ],
+    "description": "Cây thân gỗ lớn, tán rộng hình vòm đặc trưng, thường được trồng làm cây bóng mát ven đường và công viên tại các đô thị miền Nam Việt Nam. Lá kép lông chim, cụp lại khi trời mưa hoặc ban đêm — đặc điểm nổi bật tạo nên tên gọi 'Cây Mưa'.",
+    "height_range_m": [
+      15,
+      30
+    ],
+    "canopy_spread_m": [
+      20,
+      40
+    ],
+    "growth_rate": "Nhanh (1–2 m/năm)",
+    "lifespan_years": "100–200 năm",
+    "root_system": "Rễ lan rộng bề mặt, ăn nông, có khả năng cố định đạm nhờ vi khuẩn cộng sinh",
+    "leaf_description": "Lá kép lông chim hai lần chẵn, lá chét nhỏ hình bầu dục, cụp lại vào ban đêm và khi trời mưa",
+    "bark": "Vỏ màu nâu xám, nứt thành các mảng không đều, bề mặt hơi sần",
+    "fruit": "Quả đậu dài 15–20 cm, màu nâu đen khi chín, chứa hạt và lớp cơm ngọt",
+    "flower": "Hoa nhỏ màu hồng nhạt đến đỏ, mọc thành cụm tròn, nở về buổi chiều tối",
+    "distribution": [
+      "TP.HCM",
+      "Bình Dương",
+      "Đồng Nai",
+      "Đồng bằng sông Cửu Long",
+      "Tây Nguyên"
+    ],
+    "ecological_role": "Cung cấp bóng mát rộng, cố định đạm cải tạo đất, quả làm thức ăn cho động vật",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Bóng mát đường phố",
+      "Gỗ làm đồ nội thất cao cấp",
+      "Thức ăn gia súc từ quả và lá",
+      "Cảnh quan đô thị"
+    ],
+    "fun_fact": "Lá cây tự động cụp lại khi trời sắp mưa hoặc vào ban đêm — đây là phản ứng sinh học gọi là 'vận động thức ngủ' (nyctinasty); ngoài ra, quả Mê Tây chứa lớp cơm ngọt bên trong được voi, ngựa và nhiều loài thú hoang yêu thích, giúp phát tán hạt đi rất xa qua đường tiêu hóa.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samanea_saman_qtl2.jpg/800px-Samanea_saman_qtl2.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Me_t%C3%A2y"
+  },
+  "Me Xanh": {
+    "scientific_name": "Pithecellobium dulce",
+    "family": "Fabaceae",
+    "common_names": [
+      "Me Xanh",
+      "Me Keo",
+      "Manila Tamarind",
+      "Madras Thorn"
+    ],
+    "description": "Cây thân gỗ vừa đến lớn, thường xanh quanh năm, thân có gai nhọn ngắn. Phổ biến ở các vùng nhiệt đới khô, được trồng làm hàng rào, lấy bóng mát và thu hoạch quả ăn được. Rất phổ biến ven đường và bờ ruộng ở miền Nam Việt Nam.",
+    "height_range_m": [
+      10,
+      18
+    ],
+    "canopy_spread_m": [
+      6,
+      12
+    ],
+    "growth_rate": "Trung bình đến nhanh (0.8–1.5 m/năm)",
+    "lifespan_years": "50–100 năm",
+    "root_system": "Rễ cọc ăn sâu, kết hợp rễ lan bề mặt, chịu hạn tốt",
+    "leaf_description": "Lá kép lông chim một lần, 2 đôi lá chét hình bầu dục nhỏ, xanh bóng quanh năm",
+    "bark": "Vỏ màu nâu xám nhạt, có gai đôi ngắn tại gốc lá",
+    "fruit": "Quả đậu xoắn, dài 10–12 cm, vỏ đỏ hồng khi chín, cơm trắng hoặc hồng bao quanh hạt đen bóng, ăn được, vị chua ngọt",
+    "flower": "Hoa nhỏ màu trắng vàng nhạt, mọc thành chùm nhỏ, có mùi thơm nhẹ",
+    "distribution": [
+      "TP.HCM",
+      "Bình Dương",
+      "Tây Ninh",
+      "Đồng bằng sông Cửu Long",
+      "Duyên hải miền Trung"
+    ],
+    "ecological_role": "Cố định đạm, chống xói mòn, làm hàng rào sinh học, thu hút côn trùng thụ phấn",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Quả ăn tươi hoặc làm nước giải khát",
+      "Hàng rào sinh học",
+      "Bóng mát",
+      "Gỗ làm củi",
+      "Lá làm thức ăn gia súc"
+    ],
+    "fun_fact": "Quả Me Xanh có màu vỏ đỏ hồng rất bắt mắt khi chín và được trẻ em miền Nam yêu thích ăn vặt từ lâu đời; ngoài ra, dù có gai sắc nhọn, cây Me Xanh lại là một trong những loài cây hàng rào sinh học phổ biến nhất Đông Nam Á — gai của nó còn từng được dùng thay kim khâu trong dân gian.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pithecellobium_dulce_fruits.jpg/800px-Pithecellobium_dulce_fruits.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Me_k%C3%A9o"
+  },
+  "Nhạc Ngựa": {
+    "scientific_name": "Swietenia macrophylla",
+    "family": "Meliaceae",
+    "common_names": [
+      "Nhạc Ngựa",
+      "Dái Ngựa Lá To",
+      "Big-Leaf Mahogany",
+      "Honduras Mahogany",
+      "Brazilian Mahogany"
+    ],
+    "description": "Cây thân gỗ lớn nhập nội từ vùng nhiệt đới Trung và Nam Mỹ, được trồng phổ biến làm cây bóng mát đường phố tại TP.HCM và các tỉnh miền Nam. Thân thẳng, tán rộng hình trứng, gỗ có vân đẹp màu nâu đỏ được coi là một trong những loại gỗ quý nhất thế giới. Rụng lá vào mùa khô với màu nâu đỏ đặc trưng.",
+    "height_range_m": [
+      15,
+      30
+    ],
+    "canopy_spread_m": [
+      8,
+      15
+    ],
+    "growth_rate": "Trung bình đến nhanh (1–1.5 m/năm)",
+    "lifespan_years": "100–350 năm",
+    "root_system": "Rễ cọc ăn sâu, kết hợp rễ bề mặt lan vừa phải, bám đất tốt, ít gây hư hại vỉa hè",
+    "leaf_description": "Lá kép lông chim một lần chẵn, mọc cách, dài 10–30 cm, gồm 4–6 cặp lá chét hình bầu dục thuôn, đỉnh nhọn, gốc hơi lệch, phiến dày bóng xanh đậm — đỏ nâu trước khi rụng vào mùa khô",
+    "bark": "Vỏ màu nâu đến nâu đen, nứt dọc thành các mảng vảy thô, bong nhẹ theo lớp",
+    "fruit": "Quả nang gỗ lớn hình trứng, dài 8–10 cm, nứt thành 5 mảnh khi chín, mỗi mảnh chứa hạt dẹt màu nâu đỏ có cánh dài giúp phát tán theo gió",
+    "flower": "Hoa nhỏ màu vàng xanh nhạt, cánh hoa trắng, nhị dính thành ống, đĩa mật màu đỏ tươi, mọc thành chùm ở ngọn cành, nở vào cuối mùa đông đến đầu xuân",
+    "distribution": [
+      "TP.HCM",
+      "Bình Dương",
+      "Đồng Nai",
+      "Bình Phước",
+      "Tây Nguyên",
+      "Gia Lai",
+      "Đắk Lắk",
+      "Duyên hải miền Trung"
+    ],
+    "ecological_role": "Cung cấp bóng mát rộng, hấp thụ CO₂ mạnh, quả là thức ăn cho chim, là nơi trú ngụ của nhiều loài côn trùng và chim",
+    "conservation_status": "Nguy cấp (Endangered - EN, theo IUCN), do khai thác gỗ quá mức trong tự nhiên",
+    "uses": [
+      "Cây bóng mát đường phố và đô thị",
+      "Gỗ cao cấp làm đồ nội thất, nhạc cụ, sàn gỗ",
+      "Trồng rừng kinh tế và phòng hộ",
+      "Hạt dùng trong y học dân gian Đông Nam Á"
+    ],
+    "fun_fact": "Gỗ Mahogany (Nhạc Ngựa) được dùng làm đàn guitar và violin cao cấp vì khả năng truyền âm thanh đặc biệt — nhiều cây đàn danh tiếng thế giới được làm từ loại gỗ này; ngoài ra, loài cây này hiện được CITES (Công ước Quốc tế về buôn bán động thực vật hoang dã) bảo vệ nghiêm ngặt, mọi giao dịch gỗ qua biên giới đều phải có giấy phép đặc biệt.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Swietenia_macrophylla_MS_4705.jpg/800px-Swietenia_macrophylla_MS_4705.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Nh%E1%BA%A1c_ng%E1%BB%B1a_(c%C3%A2y_g%E1%BB%97)"
+  },
+  "Sao Đen": {
+    "scientific_name": "Hopea odorata",
+    "family": "Dipterocarpaceae",
+    "common_names": [
+      "Sao Đen",
+      "Cây Sao",
+      "Merawan Siput Jantan"
+    ],
+    "description": "Cây thân gỗ lớn bản địa Đông Nam Á, thường xanh quanh năm, thân thẳng tròn vươn cao. Là một trong những loài cây đặc trưng nhất của rừng nhiệt đới và đường phố TP.HCM. Gỗ rất có giá trị, nhựa dùng làm sơn truyền thống.",
+    "height_range_m": [
+      20,
+      45
+    ],
+    "canopy_spread_m": [
+      10,
+      20
+    ],
+    "growth_rate": "Chậm đến trung bình (0.5–1 m/năm)",
+    "lifespan_years": "200–500 năm",
+    "root_system": "Rễ cọc ăn sâu vững chắc, có bạnh vè lớn ở gốc khi trưởng thành",
+    "leaf_description": "Lá đơn mọc cách, hình bầu dục thuôn dài 7–12 cm, mặt trên xanh bóng, mặt dưới nhạt hơn",
+    "bark": "Vỏ màu nâu xám đến đen, nứt dọc thành các rãnh sâu, bề mặt sần sùi",
+    "fruit": "Quả hạch nhỏ có 2 cánh dài (cánh đài) phát triển thành bộ cánh để phát tán theo gió",
+    "flower": "Hoa nhỏ màu trắng vàng, mọc thành chùm ở nách lá, có mùi thơm nhẹ dịu",
+    "distribution": [
+      "TP.HCM",
+      "Đồng Nai",
+      "Bình Dương",
+      "Bình Phước",
+      "Tây Nguyên",
+      "Đông Nam Bộ"
+    ],
+    "ecological_role": "Cây tầng vượt tán trong rừng nhiệt đới, cung cấp sinh cảnh cho nhiều loài động vật, hấp thụ CO₂ lớn",
+    "conservation_status": "Sắp nguy cấp (Vulnerable - IUCN)",
+    "uses": [
+      "Gỗ xây dựng hạng nặng",
+      "Nhựa làm sơn và chất chống thấm",
+      "Cây bóng mát đô thị",
+      "Trồng rừng phòng hộ"
+    ],
+    "fun_fact": "Quả Sao Đen có cánh tự xoay tròn như chong chóng khi rơi để phát tán hạt xa — đây là cơ chế tiến hóa độc đáo của họ Dầu (Dipterocarpaceae); ngoài ra, nhựa Sao Đen từng được ngư dân miền Nam dùng để trám thuyền gỗ chống thấm nước — một ứng dụng truyền thống tồn tại hàng trăm năm trước khi có sơn công nghiệp.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Hopea_odorata_-_fruits.jpg/800px-Hopea_odorata_-_fruits.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Sao_%C4%91en"
+  },
+  "Cây Si": {
+    "scientific_name": "Ficus benjamina",
+    "family": "Moraceae",
+    "common_names": [
+      "Cây Si",
+      "Si Rũ",
+      "Weeping Fig",
+      "Benjamin Fig"
+    ],
+    "description": "Cây thân gỗ lớn thường xanh, nổi bật với bộ rễ khí sinh (rễ phụ) rủ xuống từ cành, chạm đất tạo thành cột phụ vững chắc theo thời gian. Rất phổ biến ở đình chùa, công viên và đường phố Việt Nam. Có thể phát triển thành cây cổ thụ với tán rộng hàng chục mét.",
+    "height_range_m": [
+      10,
+      30
+    ],
+    "canopy_spread_m": [
+      15,
+      35
+    ],
+    "growth_rate": "Trung bình đến nhanh (1–2 m/năm khi còn nhỏ)",
+    "lifespan_years": "100–300 năm",
+    "root_system": "Rễ khí sinh (aerial roots) rủ từ cành xuống đất, rễ mặt đất lan rộng và mạnh, có thể phá vỡ công trình xây dựng",
+    "leaf_description": "Lá đơn mọc cách, hình bầu dục thuôn, đầu nhọn, dài 6–13 cm, màu xanh bóng, gân lá rõ",
+    "bark": "Vỏ màu xám nhạt, nhẵn khi còn trẻ, nứt không đều khi già, tiết nhựa mủ trắng khi bị cắt",
+    "fruit": "Quả sung nhỏ hình cầu, đường kính 1–1.5 cm, chín màu đỏ hoặc vàng, chứa nhiều hạt nhỏ",
+    "flower": "Hoa ẩn bên trong đế hoa (hypanthodium), không nhìn thấy từ bên ngoài, thụ phấn nhờ ong vò vẽ chuyên biệt",
+    "distribution": [
+      "TP.HCM",
+      "Hà Nội",
+      "Huế",
+      "Hội An",
+      "Toàn quốc — đặc biệt ở đình chùa miền Nam"
+    ],
+    "ecological_role": "Cung cấp quả cho chim và dơi, rễ khí sinh tạo vi sinh cảnh, là cây linh thiêng trong văn hóa Việt",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Bóng mát cảnh quan",
+      "Cây cảnh bonsai",
+      "Trang trí đình chùa, sân vườn",
+      "Lá và vỏ dùng trong y học dân gian"
+    ],
+    "fun_fact": "Một cây Si cổ thụ có thể tạo ra một 'khu rừng' nhỏ từ rễ khí sinh — cây Si ở Rạch Giá từng được ghi nhận với chu vi tán hơn 100 mét; ngoài ra, cây Si và cây vả (Ficus) thụ phấn hoàn toàn nhờ một loài ong vò vẽ chuyên biệt duy nhất — nếu không có loài ong này, cây không thể ra hạt, thể hiện mối quan hệ cộng sinh tiến hóa hàng triệu năm.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ficus_benjamina2.jpg/800px-Ficus_benjamina2.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Si_(c%C3%A2y)"
+  },
+  "Sọ Khỉ": {
+    "scientific_name": "Khaya senegalensis",
+    "family": "Meliaceae",
+    "common_names": [
+      "Sọ Khỉ",
+      "Xà Cừ",
+      "African Mahogany",
+      "Dry Zone Mahogany"
+    ],
+    "description": "Cây thân gỗ lớn nhập nội từ Châu Phi, được trồng rộng rãi làm cây bóng mát đường phố tại Việt Nam từ thời Pháp thuộc. Thân thẳng, tán tròn rộng, gỗ có giá trị cao. Là một trong những loài cây đường phố biểu tượng của TP.HCM và Hà Nội.",
+    "height_range_m": [
+      20,
+      35
+    ],
+    "canopy_spread_m": [
+      12,
+      25
+    ],
+    "growth_rate": "Trung bình (0.8–1.5 m/năm)",
+    "lifespan_years": "100–200 năm",
+    "root_system": "Rễ ăn nông và lan rộng, thường trồi lên mặt đất — nguyên nhân phổ biến gây hư hại vỉa hè đô thị",
+    "leaf_description": "Lá kép lông chim một lần chẵn, gồm 4–6 cặp lá chét hình bầu dục, dài 7–12 cm, màu xanh đậm bóng",
+    "bark": "Vỏ màu nâu xám, nứt thành các mảng vảy cá đặc trưng, bong ra từng mảng nhỏ",
+    "fruit": "Quả nang gỗ hình cầu đến bầu dục, đường kính 4–6 cm, nứt thành 4–5 mảnh khi chín, hạt có cánh",
+    "flower": "Hoa nhỏ màu trắng vàng, mọc thành chùm lớn, có mùi thơm nhẹ, nở vào mùa khô",
+    "distribution": [
+      "TP.HCM",
+      "Hà Nội",
+      "Huế",
+      "Đà Nẵng",
+      "Toàn quốc — trồng phổ biến từ thời Pháp"
+    ],
+    "ecological_role": "Cây bóng mát lớn, hấp thụ CO₂ mạnh, là nơi trú ngụ của chim và côn trùng",
+    "conservation_status": "Sắp nguy cấp trong tự nhiên (Vulnerable - IUCN) do khai thác gỗ",
+    "uses": [
+      "Cây bóng mát đô thị",
+      "Gỗ xây dựng và nội thất cao cấp (Mahogany)",
+      "Vỏ cây dùng trong y học cổ truyền Châu Phi"
+    ],
+    "fun_fact": "Xà Cừ được người Pháp đưa vào trồng tại Việt Nam từ cuối thế kỷ 19 để tạo bóng mát — nhiều cây trên đường phố Hà Nội và TP.HCM nay đã hơn 100 tuổi; ngoài ra, rễ Xà Cừ nổi tiếng là 'kẻ thù' của vỉa hè đô thị: rễ lan rộng và trồi mạnh đến mức nhiều đoạn vỉa hè phải thay đi thay lại nhiều lần, khiến thành phố phải liên tục tranh luận về việc có nên giữ hay chặt bỏ các cây cổ thụ này.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Khaya_senegalensis_MS_4272.jpg/800px-Khaya_senegalensis_MS_4272.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/X%C3%A0_c%E1%BB%AB"
+  },
+  "Sứ Đại": {
+    "scientific_name": "Plumeria obtusa",
+    "family": "Apocynaceae",
+    "common_names": [
+      "Sứ Đại",
+      "Sứ Trắng",
+      "Frangipani",
+      "Temple Tree",
+      "White Plumeria"
+    ],
+    "description": "Cây thân gỗ nhỏ đến vừa, thường xanh, nổi bật với những chùm hoa trắng vàng thơm nức. Phổ biến tại chùa chiền, nghĩa trang và vườn cảnh khắp Việt Nam. Cành mọng nước chứa nhựa trắng độc. Được coi là biểu tượng tâm linh ở nhiều nước Đông Nam Á.",
+    "height_range_m": [
+      5,
+      10
+    ],
+    "canopy_spread_m": [
+      4,
+      8
+    ],
+    "growth_rate": "Chậm đến trung bình (0.4–0.8 m/năm)",
+    "lifespan_years": "50–100 năm",
+    "root_system": "Rễ cọc nông, không lan rộng nhiều, an toàn với công trình xây dựng xung quanh",
+    "leaf_description": "Lá đơn tập trung ở đầu cành, hình thìa thuôn dài 20–40 cm, đầu tròn, mặt trên xanh bóng, mặt dưới nhạt",
+    "bark": "Vỏ màu xám xanh nhạt, nhẵn, cành mọng nước tiết nhựa trắng khi bị gãy hoặc cắt",
+    "fruit": "Quả đại đôi hình trụ dài 15–25 cm, chứa nhiều hạt có cánh màu trắng",
+    "flower": "Hoa lớn 5 cánh màu trắng tinh, tâm vàng tươi, đường kính 5–7 cm, mùi thơm nồng đặc trưng, nở quanh năm",
+    "distribution": [
+      "TP.HCM",
+      "Hà Nội",
+      "Huế",
+      "Đà Lạt",
+      "Toàn quốc — trồng phổ biến ở đình chùa và vườn nhà"
+    ],
+    "ecological_role": "Hoa thu hút bướm và ong, cây cảnh quan tâm linh, tinh dầu hoa có giá trị",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Cây cảnh trang trí",
+      "Hoa dùng trong nghi lễ tôn giáo",
+      "Tinh dầu làm nước hoa và mỹ phẩm",
+      "Y học dân gian (vỏ và nhựa)"
+    ],
+    "fun_fact": "Hoa Sứ không có mật hoa thực sự — chúng 'lừa' côn trùng bằng mùi thơm mạnh để thụ phấn mà không cần thưởng cho côn trùng bất cứ thứ gì; ngoài ra, nhựa trắng của cây Sứ chứa độc tố có thể gây kích ứng da và mắt nghiêm trọng, nhưng nghịch lý thay, loài cây này lại được trồng phổ biến nhất tại các chùa chiền và nghĩa trang — nơi người ta tin rằng mùi hương hoa có khả năng xua đuổi tà khí.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Plumeria_obtusa_flowers.jpg/800px-Plumeria_obtusa_flowers.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/S%E1%BB%A9_(c%C3%A2y)"
+  },
+  "Cây Trai": {
+    "scientific_name": "Fagraea fragrans",
+    "family": "Gentianaceae",
+    "common_names": [
+      "Cây Trai",
+      "Trái",
+      "Tembusu",
+      "Ironwood Tembusu"
+    ],
+    "description": "Cây thân gỗ lớn bản địa Đông Nam Á, thường xanh quanh năm, thân thẳng với tán lá dày. Gỗ cứng chắc bậc nhất trong các loài cây bản địa, được dùng làm cột nhà và đóng thuyền từ xa xưa. Hoa trắng vàng thơm đặc trưng. Là cây biểu tượng của Singapore.",
+    "height_range_m": [
+      15,
+      40
+    ],
+    "canopy_spread_m": [
+      10,
+      18
+    ],
+    "growth_rate": "Chậm (0.3–0.7 m/năm)",
+    "lifespan_years": "200–500 năm",
+    "root_system": "Rễ cọc ăn rất sâu và chắc chắn, bạnh vè hình thành rõ ở cây lớn tuổi, chống đổ ngã tốt",
+    "leaf_description": "Lá đơn mọc đối, hình bầu dục đến thuôn, dài 8–18 cm, dày, cứng, xanh đậm bóng quanh năm",
+    "bark": "Vỏ màu nâu xám đến đen, nứt sâu thành các rãnh dọc không đều, rất cứng và dày",
+    "fruit": "Quả mọng nhỏ hình cầu, đường kính 1–1.5 cm, chín màu đỏ cam bóng, chứa nhiều hạt nhỏ",
+    "flower": "Hoa ống hình phễu màu trắng vàng nhạt, mọc thành chùm ở đầu cành, mùi thơm ngọt đặc trưng — đặc biệt nồng vào buổi tối",
+    "distribution": [
+      "TP.HCM",
+      "Đồng Nai",
+      "Bình Phước",
+      "Tây Nguyên",
+      "Đông Nam Bộ",
+      "Singapore",
+      "Malaysia"
+    ],
+    "ecological_role": "Cây tầng vượt tán rừng, quả là nguồn thức ăn cho chim, hoa cung cấp mật cho côn trùng ban đêm",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Gỗ kết cấu hạng nặng (cột nhà, cầu cảng, đóng thuyền)",
+      "Cây bóng mát đường phố cao cấp",
+      "Cây cảnh quan công viên"
+    ],
+    "fun_fact": "Cây Trai (Tembusu) được in trên tờ tiền 5 đô Singapore — là một trong những loài cây mang tính biểu tượng nhất Đông Nam Á nhờ tuổi thọ và gỗ cực kỳ cứng chắc; ngoài ra, gỗ Trai (Tembusu) cứng đến mức từng được dùng để làm trục bánh xe bò và chân cột nhà sàn — những công trình đã tồn tại hàng trăm năm mà gỗ vẫn nguyên vẹn, không mối mọt.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fagraea_fragrans_-_flowers.jpg/800px-Fagraea_fragrans_-_flowers.jpg",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fagraea_fragrans"
+  },
+  "Viết": {
+    "scientific_name": "Mimusops elengi",
+    "family": "Sapotaceae",
+    "common_names": [
+      "Cây Viết",
+      "Sến Xanh",
+      "Spanish Cherry",
+      "Bullet Wood",
+      "Bakul"
+    ],
+    "description": "Cây thân gỗ lớn thường xanh, tán lá dày hình vòm, thân thẳng. Phổ biến tại đền chùa, công viên và đường phố các tỉnh miền Nam Việt Nam. Hoa nhỏ màu trắng kem tỏa hương thơm ngọt đặc trưng, đặc biệt nồng vào buổi tối. Gỗ cứng chắc, được dùng làm đồ mộc và xây dựng từ thời xa xưa.",
+    "height_range_m": [
+      15,
+      30
+    ],
+    "canopy_spread_m": [
+      8,
+      15
+    ],
+    "growth_rate": "Chậm đến trung bình (0.5–1 m/năm)",
+    "lifespan_years": "100–300 năm",
+    "root_system": "Rễ cọc ăn sâu, rễ bề mặt lan vừa phải, ít gây hư hại công trình xây dựng xung quanh",
+    "leaf_description": "Lá đơn mọc cách, hình bầu dục đến thuôn dài 5–14 cm, dày cứng, mặt trên xanh bóng, mặt dưới nhạt hơn, gân lá rõ nét",
+    "bark": "Vỏ màu nâu xám đến đen, nứt dọc thành các rãnh hẹp, bề mặt sần sùi",
+    "fruit": "Quả mọng hình trứng dài 2–3.5 cm, chín màu vàng cam đến đỏ, thịt quả ngọt chát, chứa 1 hạt cứng bóng",
+    "flower": "Hoa nhỏ màu trắng kem đến vàng nhạt, 8 cánh hoa xếp thành 2 vòng, mọc đơn hoặc thành cụm nhỏ ở nách lá, hương thơm ngọt nồng — đặc biệt về đêm",
+    "distribution": [
+      "TP.HCM",
+      "Bình Dương",
+      "Đồng Nai",
+      "Vũng Tàu",
+      "Ven biển miền Trung và miền Nam",
+      "Ấn Độ",
+      "Sri Lanka",
+      "Đông Nam Á"
+    ],
+    "ecological_role": "Hoa cung cấp mật cho côn trùng về đêm, quả là thức ăn cho chim, tán lá dày tạo bóng mát và giảm nhiệt đô thị",
+    "conservation_status": "Ít lo ngại (Least Concern)",
+    "uses": [
+      "Cây bóng mát đường phố và chùa chiền",
+      "Gỗ cứng làm đồ mộc và xây dựng",
+      "Hoa dùng trong lễ tôn giáo và làm nước hoa",
+      "Vỏ và hoa dùng trong y học cổ truyền Ấn Độ"
+    ],
+    "fun_fact": "Hoa Cây Viết (Mimusops elengi) được phụ nữ Ấn Độ cài lên tóc từ hàng nghìn năm trước vì mùi hương ngọt ngào bền lâu — tên 'Bakul' trong tiếng Sanskrit gắn liền với truyền thuyết tình yêu vĩnh cửu; ngoài ra, hoa cây có thể giữ hương thơm đến 3–4 ngày sau khi rụng xuống đất, điều rất hiếm gặp trong thế giới thực vật.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mimusops_elengi_MS_4354.jpg/800px-Mimusops_elengi_MS_4354.jpg",
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/S%E1%BA%BFn_xanh"
+  }
+}
