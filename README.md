@@ -1,110 +1,153 @@
----
-title: Phân Loại Cây Xanh Phường Bến Nghé
-emoji: 🌿
-colorFrom: green
-colorTo: teal
-sdk: streamlit
-sdk_version: "1.35.0"
-app_file: app.py
-pinned: false
-license: mit
----
+# Phân loại cây xanh phường Bến Nghé sử dụng Deep Learning
 
-# 🌿 Phân Loại Cây Xanh Phường Bến Nghé
+Ứng dụng Streamlit dùng Deep Learning để nhận diện 19 loài cây xanh đường phố tại phường Bến Nghé, TP.HCM từ ảnh lá cây do người dùng tải lên hoặc chụp trực tiếp.
 
-Ứng dụng nhận diện **19 loài cây xanh đường phố** tại Phường Bến Nghé, TP.HCM  
-sử dụng kỹ thuật Deep Learning.
+## 1. Yêu cầu môi trường
 
-## Hai phương pháp phân loại
+- Python 3.10 trở lên
+- pip
+- RAM tối thiểu khoảng 8 GB, khuyến nghị 16 GB khi chạy đầy đủ các mô hình
+- Có thể chạy bằng CPU; nếu máy có GPU/CUDA thì PyTorch có thể tận dụng tùy môi trường cài đặt
 
-| | Method 1 | Method 2 |
-|---|---|---|
-| **Tên** | ConvNeXtV2-Tiny | Fusion Feature |
-| **Kiến trúc** | Single model | ConvNeXtV2-Tiny + FastViT-S12 → WeightedFusionClassifier |
-| **Đầu vào** | 1 file `.pth` | 3 file `.pth` |
-| **Ghi chú** | Nhanh, nhẹ | Độ chính xác cao hơn |
+Các thư viện Python được khai báo trong `requirements.txt`:
 
-> Chỉ được bật **một** phương pháp tại một thời điểm.
-
----
-
-## Cấu trúc thư mục
-
+```txt
+streamlit
+torch
+torchvision
+timm
+Pillow
+numpy
 ```
+
+## 2. Cấu trúc thư mục cần có
+
+Để ứng dụng chạy đúng, các file sau cần nằm trong cùng một thư mục với `app.py`:
+
+```text
 tree_app/
-├── app.py                              # Streamlit app chính
-├── fusion_model.py                     # Module Fusion (Method 2)
-├── info19.json                         # Dữ liệu 19 loài cây
+├── app.py
+├── fusion_model.py
+├── ensemble_model.py
+├── info19.json
 ├── requirements.txt
+├── Dockerfile
 ├── README.md
-│
-│  ── Model weights (cần upload thủ công) ──
-├── ConvNeXtV2Tiny_S1_CrossEntropy.pth  # Method 1
-├── M2_ConvNeXtV2Tiny_S1_CrossEntropy.pth  # Method 2 – backbone ConvNeXt
-├── M2_FastViT_S1_CrossEntropy.pth         # Method 2 – backbone FastViT
-└── fusion_best.pth                        # Method 2 – Fusion head
+├── ConvNeXtV2Tiny_S1_CrossEntropy.pth
+├── FastViT_S1_CrossEntropy.pth
+├── best_model.pth
+├── DINOv2_ViTS14_LPFT_Final_ema.pth
+└── fusion_best.pth
 ```
 
----
+Vai trò của các file chính:
 
-## Hướng dẫn deploy
+| File | Mục đích |
+| --- | --- |
+| `app.py` | File chính chạy giao diện Streamlit |
+| `fusion_model.py` | Hàm load và dự đoán cho mô hình Fusion |
+| `ensemble_model.py` | Hàm load và dự đoán cho mô hình Cascaded Ensemble |
+| `info19.json` | Dữ liệu mô tả 19 loài cây |
+| `requirements.txt` | Danh sách thư viện cần cài |
+| `ConvNeXtV2Tiny_S1_CrossEntropy.pth` | Weight cho ConvNeXtV2-Tiny |
+| `FastViT_S1_CrossEntropy.pth` | Weight cho FastViT |
+| `best_model.pth` | Weight cho MobileNetV4 |
+| `DINOv2_ViTS14_LPFT_Final_ema.pth` | Weight cho DINOv2 |
+| `fusion_best.pth` | Weight cho Fusion head |
 
-### A. HuggingFace Spaces
+Lưu ý: Không đổi tên các file `.pth` nếu chưa sửa lại đường dẫn tương ứng trong `app.py`.
 
-1. Tạo Space mới → chọn **Streamlit** SDK
-2. Clone repo Space về máy:
-   ```bash
-   git clone https://huggingface.co/spaces/<username>/<space-name>
-   ```
-3. Copy toàn bộ nội dung thư mục `tree_app/` vào repo
-4. Upload các file `.pth` (dùng HF web UI hoặc `git lfs`):
-   ```bash
-   git lfs install
-   git lfs track "*.pth"
-   git add .gitattributes
-   git add *.pth app.py fusion_model.py info19.json requirements.txt README.md
-   git commit -m "Initial deploy"
-   git push
-   ```
+## 3. Cách chạy ứng dụng trên máy cá nhân
 
-> **Lưu ý:** File `.pth` thường > 100MB → **bắt buộc dùng Git LFS** trên HuggingFace.
+Mở Terminal/PowerShell tại thư mục `tree_app`, sau đó chạy:
 
-### B. Streamlit Cloud (github)
-
-1. Push toàn bộ `tree_app/` lên một **GitHub repo public**
-2. Vào [share.streamlit.io](https://share.streamlit.io) → New app
-3. Chọn repo, branch `main`, **Main file path** = `app.py`
-4. Deploy
-
-> **Lưu ý:** GitHub giới hạn file < 100MB. Với file `.pth` lớn hơn, dùng **Git LFS** hoặc host model trên HuggingFace Hub rồi download trong `app.py` (xem phần bên dưới).
-
-### C. Tự động download model từ HuggingFace Hub (khuyến nghị cho Streamlit Cloud)
-
-Nếu file `.pth` quá lớn cho GitHub, thêm đoạn sau vào đầu `app.py`:
-
-```python
-from huggingface_hub import hf_hub_download
-import os
-
-def ensure_model(repo_id: str, filename: str):
-    if not os.path.exists(filename):
-        hf_hub_download(repo_id=repo_id, filename=filename, local_dir=".")
-
-ensure_model("your-username/your-model-repo", "ConvNeXtV2Tiny_S1_CrossEntropy.pth")
-ensure_model("your-username/your-model-repo", "M2_ConvNeXtV2Tiny_S1_CrossEntropy.pth")
-ensure_model("your-username/your-model-repo", "M2_FastViT_S1_CrossEntropy.pth")
-ensure_model("your-username/your-model-repo", "fusion_best.pth")
+```bash
+python -m venv .venv
 ```
 
-Thêm vào `requirements.txt`:
+Kích hoạt môi trường ảo.
+
+Trên Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
-huggingface_hub>=0.22.0
+
+Trên macOS/Linux:
+
+```bash
+source .venv/bin/activate
 ```
 
----
+Cài thư viện:
 
-## 19 loài cây được nhận diện
+```bash
+pip install -r requirements.txt
+```
 
-Bồ Đề · Cẩm Xe · Dầu Rái · Giá Tị · Giáng Hương · Gõ Mật · Kèn Hồng ·
-Lim Sẹt · Lộc Vừng · Mắc Nưa · Mè Tây · Me Xanh · Nhạc Ngựa · Sao Đen ·
-Si · Sồi Khỉ · Sứ Đại · Trái · Việt
+Chạy ứng dụng:
+
+```bash
+streamlit run app.py
+```
+
+Sau khi chạy thành công, Streamlit sẽ hiển thị địa chỉ truy cập, thường là:
+
+```text
+http://localhost:8501
+```
+
+Mở địa chỉ này trên trình duyệt để sử dụng ứng dụng.
+
+## 4. Cách chạy bằng Docker
+
+Nếu máy đã cài Docker, có thể build và chạy container:
+
+```bash
+docker build -t tree-app .
+docker run --rm -p 7860:7860 tree-app
+```
+
+Sau đó mở:
+
+```text
+http://localhost:7860
+```
+
+## 5. Cách sử dụng
+
+1. Mở ứng dụng trên trình duyệt.
+2. Chọn phương pháp nhận diện trong giao diện.
+3. Tải ảnh cây/lá lên hoặc chụp ảnh trực tiếp.
+4. Xem kết quả dự đoán, độ tin cậy và thông tin mô tả loài cây.
+
+Ứng dụng hiện hỗ trợ các hướng nhận diện:
+
+| Phương pháp | Mô hình sử dụng |
+| --- | --- |
+| ConvNeXtV2-Tiny | `ConvNeXtV2Tiny_S1_CrossEntropy.pth` |
+| Fusion | ConvNeXtV2 + FastViT + `fusion_best.pth` |
+| Cascaded Ensemble | ConvNeXtV2 + FastViT + MobileNetV4 + DINOv2 |
+
+## 6. Lỗi thường gặp
+
+### Không tìm thấy file `.pth`
+
+Kiểm tra lại các file weight đã nằm cùng cấp với `app.py` và đúng tên file như trong phần cấu trúc thư mục.
+
+### Không tìm thấy `info19.json`
+
+Đặt lại file `info19.json` vào thư mục gốc của ứng dụng, cùng cấp với `app.py`.
+
+### Cài `torch` quá lâu hoặc lỗi
+
+PyTorch có thể cần bản cài phù hợp với hệ điều hành và CUDA. Nếu cài qua `requirements.txt` lỗi, hãy cài PyTorch theo hướng dẫn chính thức tại trang chủ PyTorch, sau đó chạy lại:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Ứng dụng chạy chậm
+
+Các mô hình Deep Learning có dung lượng lớn. Khi chạy bằng CPU, lần dự đoán đầu tiên có thể mất nhiều thời gian vì ứng dụng cần load model vào bộ nhớ.
+
