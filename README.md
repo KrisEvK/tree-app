@@ -1,153 +1,160 @@
-# Phân loại cây xanh phường Bến Nghé sử dụng Deep Learning
+# Urban Tree Species Classification
 
-Ứng dụng Streamlit dùng Deep Learning để nhận diện 19 loài cây xanh đường phố tại phường Bến Nghé, TP.HCM từ ảnh lá cây do người dùng tải lên hoặc chụp trực tiếp.
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B.svg)](https://streamlit.io/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](https://www.docker.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 1. Yêu cầu môi trường
+A Streamlit app that identifies 19 street tree species in Bến Nghé Ward (District 1, Ho Chi Minh City) from a leaf photo. Upload an image or use the camera; the app returns the species name, confidence, conservation status, and botanical notes.
 
-- Python 3.10 trở lên
-- pip
-- RAM tối thiểu khoảng 8 GB, khuyến nghị 16 GB khi chạy đầy đủ các mô hình
-- Có thể chạy bằng CPU; nếu máy có GPU/CUDA thì PyTorch có thể tận dụng tùy môi trường cài đặt
+This is the capstone project (Đồ án chuyên ngành) at HUIT's Faculty of Information Technology, extending our earlier conference paper to 19 species with modern architectures and a two-stage ensemble.
 
-Các thư viện Python được khai báo trong `requirements.txt`:
+---
 
-```txt
-streamlit
-torch
-torchvision
-timm
-Pillow
-numpy
+## Citation
+
+> **Ứng dụng kỹ thuật Deep Learning trong phân loại cây xanh phường Sài Gòn**
+> Pham Nguyen Minh Hau, **Nguyen Huu Tri**, Nguyen Viet Truong Toan; Advisors: TS. Ngo Duong Ha, ThS. Tran Nhu Y.
+> Faculty of Information Technology Scientific Conference, HUIT, May 2026.
+
+The original paper covered 7 species with a baseline CNN. This release expands to 19 species, replaces the backbone, and adds an ensemble with an early-exit gate.
+
+---
+
+## The data leakage problem
+
+Field data was collected by photographing the same trees from multiple angles on the same day. A random train/val/test split split those near-duplicate images across sets, inflating validation accuracy by ~8 points.
+
+Fix: we grouped all images by individual tree ID before splitting. Every image from a given tree goes entirely into one set. The test numbers below reflect this corrected split.
+
+---
+
+## Architecture
+
+Two inference modes are available in the app:
+
+**ConvNeXtV2-Tiny (single model)**: faster, lower memory.
+
+**Cascaded Ensemble**: runs a fast gate first:
+
+```
+Input image (224x224)
+        |
+MobileNetV4-Small (gate)
+        |
+confidence >= 0.90? --YES--> return result  (~20 ms on CPU)
+        |
+       NO
+        |
+4 models in parallel + TTA (6 transforms)
+  ConvNeXtV2-Tiny
+  FastViT-S12
+  MobileNetV4
+  DINOv2-ViTS14 (LP-FT)
+        |
+class-wise weighted voting
+        |
+Final prediction
 ```
 
-## 2. Cấu trúc thư mục cần có
+Linear Probing then Fine-Tuning (LP-FT) on DINOv2: we froze the backbone and trained only the head first, then unfroze and fine-tuned end-to-end. This prevented the randomly initialized head from corrupting the pretrained features early in training, lifting accuracy from 64.8% (LP only) to 88.1%.
 
-Để ứng dụng chạy đúng, các file sau cần nằm trong cùng một thư mục với `app.py`:
+---
 
-```text
+## Results
+
+Evaluated on the leak-free grouped test split, 19 species:
+
+| Model | Accuracy | Macro F1 | Latency (CPU) |
+| :--- | :---: | :---: | :---: |
+| ResNet-50 (baseline) | 89.20% | 0.8845 | ~45 ms |
+| MobileNetV4-Small | 91.40% | 0.9082 | ~18 ms |
+| FastViT-S12 | 93.65% | 0.9310 | ~28 ms |
+| ConvNeXtV2-Tiny | 94.80% | 0.9450 | ~52 ms |
+| DINOv2-ViTS14 (LP only) | 64.80% | 0.6350 | ~70 ms |
+| DINOv2-ViTS14 (LP-FT) | 88.10% | 0.8790 | ~70 ms |
+| Weighted Fusion (ConvNeXt + FastViT) | 96.15% | 0.9580 | ~75 ms |
+| Cascaded Ensemble (ours) | **98.35%** | **0.9831** | ~20 ms avg |
+
+---
+
+## Species covered
+
+19 street trees endemic to Bến Nghé Ward. Full botanical data (scientific name, conservation status, morphological traits, distribution) is in `info19.json`.
+
+| # | Vietnamese name | Scientific name |
+| :---: | :--- | :--- |
+| 1 | Bồ Đề | *Ficus religiosa* |
+| 2 | Căm Xe | *Xylia xylocarpa* |
+| 3 | Dầu Rái | *Dipterocarpus alatus* |
+| 4 | Giá Tỵ | *Tectona grandis* |
+| 5 | Giáng Hương | *Pterocarpus macrocarpus* |
+| 6 | Gõ Mật | *Sindora siamensis* |
+| 7 | Kèn Hồng | *Tabebuia rosea* |
+| 8 | Lim Xẹt | *Peltophorum pterocarpum* |
+| 9 | Lộc Vừng | *Barringtonia acutangula* |
+| 10 | Mác Nưa | *Diospyros mollis* |
+| 11 | Me Tây | *Samanea saman* |
+| 12 | Me Xanh | *Tamarindus indica* |
+| 13 | Nhạc Ngựa | *Swietenia mahagoni* |
+| 14 | Sao Đen | *Hopea odorata* |
+| 15 | Cây Si | *Ficus benjamina* |
+| 16 | Sọ Khỉ | *Khaya senegalensis* |
+| 17 | Sứ Đại | *Plumeria rubra* |
+| 18 | Cây Trai | *Garcinia fragraeoides* |
+| 19 | Viết | *Mimusops elengi* |
+
+---
+
+## File layout
+
+```
 tree_app/
-├── app.py
-├── fusion_model.py
-├── ensemble_model.py
-├── info19.json
+├── app.py               # Streamlit UI and inference routing
+├── ensemble_model.py    # Cascaded ensemble: gate, TTA, weighted voting
+├── fusion_model.py      # Weighted feature fusion head (ConvNeXt + FastViT)
+├── info19.json          # Botanical metadata for 19 species
 ├── requirements.txt
 ├── Dockerfile
-├── README.md
-├── ConvNeXtV2Tiny_S1_CrossEntropy.pth
-├── FastViT_S1_CrossEntropy.pth
-├── best_model.pth
-├── DINOv2_ViTS14_LPFT_Final_ema.pth
-└── fusion_best.pth
+└── .dockerignore
 ```
 
-Vai trò của các file chính:
+Model weights are tracked with Git LFS (`.pth` files). Clone normally; Git LFS pulls them automatically if installed.
 
-| File | Mục đích |
-| --- | --- |
-| `app.py` | File chính chạy giao diện Streamlit |
-| `fusion_model.py` | Hàm load và dự đoán cho mô hình Fusion |
-| `ensemble_model.py` | Hàm load và dự đoán cho mô hình Cascaded Ensemble |
-| `info19.json` | Dữ liệu mô tả 19 loài cây |
-| `requirements.txt` | Danh sách thư viện cần cài |
-| `ConvNeXtV2Tiny_S1_CrossEntropy.pth` | Weight cho ConvNeXtV2-Tiny |
-| `FastViT_S1_CrossEntropy.pth` | Weight cho FastViT |
-| `best_model.pth` | Weight cho MobileNetV4 |
-| `DINOv2_ViTS14_LPFT_Final_ema.pth` | Weight cho DINOv2 |
-| `fusion_best.pth` | Weight cho Fusion head |
+---
 
-Lưu ý: Không đổi tên các file `.pth` nếu chưa sửa lại đường dẫn tương ứng trong `app.py`.
-
-## 3. Cách chạy ứng dụng trên máy cá nhân
-
-Mở Terminal/PowerShell tại thư mục `tree_app`, sau đó chạy:
-
-```bash
-python -m venv .venv
-```
-
-Kích hoạt môi trường ảo.
-
-Trên Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Trên macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Cài thư viện:
-
-```bash
-pip install -r requirements.txt
-```
-
-Chạy ứng dụng:
-
-```bash
-streamlit run app.py
-```
-
-Sau khi chạy thành công, Streamlit sẽ hiển thị địa chỉ truy cập, thường là:
-
-```text
-http://localhost:8501
-```
-
-Mở địa chỉ này trên trình duyệt để sử dụng ứng dụng.
-
-## 4. Cách chạy bằng Docker
-
-Nếu máy đã cài Docker, có thể build và chạy container:
+## Run with Docker
 
 ```bash
 docker build -t tree-app .
 docker run --rm -p 7860:7860 tree-app
 ```
 
-Sau đó mở:
+Open `http://localhost:7860`.
 
-```text
-http://localhost:7860
-```
-
-## 5. Cách sử dụng
-
-1. Mở ứng dụng trên trình duyệt.
-2. Chọn phương pháp nhận diện trong giao diện.
-3. Tải ảnh cây/lá lên hoặc chụp ảnh trực tiếp.
-4. Xem kết quả dự đoán, độ tin cậy và thông tin mô tả loài cây.
-
-Ứng dụng hiện hỗ trợ các hướng nhận diện:
-
-| Phương pháp | Mô hình sử dụng |
-| --- | --- |
-| ConvNeXtV2-Tiny | `ConvNeXtV2Tiny_S1_CrossEntropy.pth` |
-| Fusion | ConvNeXtV2 + FastViT + `fusion_best.pth` |
-| Cascaded Ensemble | ConvNeXtV2 + FastViT + MobileNetV4 + DINOv2 |
-
-## 6. Lỗi thường gặp
-
-### Không tìm thấy file `.pth`
-
-Kiểm tra lại các file weight đã nằm cùng cấp với `app.py` và đúng tên file như trong phần cấu trúc thư mục.
-
-### Không tìm thấy `info19.json`
-
-Đặt lại file `info19.json` vào thư mục gốc của ứng dụng, cùng cấp với `app.py`.
-
-### Cài `torch` quá lâu hoặc lỗi
-
-PyTorch có thể cần bản cài phù hợp với hệ điều hành và CUDA. Nếu cài qua `requirements.txt` lỗi, hãy cài PyTorch theo hướng dẫn chính thức tại trang chủ PyTorch, sau đó chạy lại:
+## Run locally
 
 ```bash
+git clone https://github.com/KrisEvK/tree-app.git
+cd tree-app
+python -m venv .venv
+
+# Windows
+.\.venv\Scripts\Activate.ps1
+# macOS / Linux
+source .venv/bin/activate
+
 pip install -r requirements.txt
+streamlit run app.py
 ```
 
-### Ứng dụng chạy chậm
+Open `http://localhost:8501`.
 
-Các mô hình Deep Learning có dung lượng lớn. Khi chạy bằng CPU, lần dự đoán đầu tiên có thể mất nhiều thời gian vì ứng dụng cần load model vào bộ nhớ.
+---
 
+## Team
+
+- **Nguyen Huu Tri** ([@KrisEvK](https://github.com/KrisEvK)): ML pipeline and ensemble engineering
+- Pham Nguyen Minh Hau, Nguyen Viet Truong Toan: data collection, training experiments
+- Advisors: TS. Ngo Duong Ha, ThS. Tran Nhu Y (Faculty of Information Technology, HUIT)
